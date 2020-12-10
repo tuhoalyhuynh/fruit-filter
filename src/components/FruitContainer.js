@@ -9,7 +9,7 @@ class FruitContainer extends Component {
         super()
         this.state = {
             // Initialize the fruit list to the full list passed into props
-            fruitsToDisplay: this.props.fruits,
+            fruitsToDisplay: props.fruits,
             // Initialize the filter vaule to empty string
             filterValue: ''
         };
